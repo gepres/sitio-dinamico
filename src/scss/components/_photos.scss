@@ -1,25 +1,25 @@
-// .Photos {
-//   @extend .u-responsiveFlexbox;
+.Photos {
+  @extend .u-responsiveFlexbox;
 
-//   figure {
-//     padding: 1rem;
-//     display: flex;
-//     flex-direction: column;
-//   }
+  figure {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
 
-//   img { background-color: var(--border-color); }
+  img { background-color: var(--border-color); }
 
-//   figcaption {
-//     padding: .5rem;
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     font-size: 4vw;
-//     color: var(--alternate-color);
-//     background-color: var(--second-color);
+  figcaption {
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 4vw;
+    color: var(--alternate-color);
+    background-color: var(--second-color);
 
-//     @include mq(m) { font-size: 1.5rem; }
-//   }
+    @include mq(m) { font-size: 1.5rem; }
+  }
 
-//   .fa-trash { cursor: pointer; }
-// }
+  .fa-trash { cursor: pointer; }
+}

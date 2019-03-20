@@ -30,6 +30,9 @@
     width: 80%;
     margin: 4rem auto;
     text-align: left;
+    & p{
+      text-align: justify;
+    }
   }
 
   &-flow {
@@ -46,6 +49,9 @@
         '.  p';
       grid-gap: 2vw;
       align-items: baseline;
+      & p{
+        text-align: justify;
+      }
 
       @include mq(l) { grid-gap: 1rem; }
     }
