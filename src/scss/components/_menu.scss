@@ -1,35 +1,35 @@
-// .Menu {
-//   margin-bottom: 2rem;
-//   text-align: right;
-//   font-size: 5vw;
+.Menu {
+  margin-bottom: 2rem;
+  text-align: right;
+  font-size: 5vw;
 
-//   @include mq(m) {
-//     grid-area: menu;
-//     font-size: 1.5rem;
-//   }
+  @include mq(m) {
+    grid-area: menu;
+    font-size: 1.5rem;
+  }
 
-//   ul {
-//     @include mq(m) {
-//       display: flex;
-//       justify-content: space-evenly;
-//     }
+  ul {
+    @include mq(m) {
+      display: flex;
+      justify-content: space-evenly;
+    }
 
-//     @include mq(l) { display: initial; }
-//   }
+    @include mq(l) { display: initial; }
+  }
 
-//   li { list-style: none; }
+  li { list-style: none; }
 
-//   a {
-//     padding-right: .5rem;
-//     display: block;
+  a {
+    padding-right: .5rem;
+    display: block;
 
-//     &:hover {
-//       color: var(--main-color);
-//       background-color: var(--alternate-color);
+    &:hover {
+      color: var(--main-color);
+      background-color: var(--alternate-color);
 
-//       @include mq(m) { background-color: transparent; }
+      @include mq(m) { background-color: transparent; }
 
-//       @include mq(l) { background-color: var(--alternate-color); }
-//     }
-//   }
-// }
+      @include mq(l) { background-color: var(--alternate-color); }
+    }
+  }
+}
